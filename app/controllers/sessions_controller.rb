@@ -10,6 +10,6 @@ class SessionsController < ApplicationController
 
     #logged in
     session[:user_id] = @user.id
-    redirect_to_notes_path
+    redirect_to notes_path
   end
 end
